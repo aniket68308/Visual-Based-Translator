@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "400871142794",
+    "firebase_url": "https://visual-based-translator.firebaseio.com",
+    "project_id": "visual-based-translator",
+    "storage_bucket": "visual-based-translator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400871142794:android:898ff6d0755ab65d",
+        "android_client_info": {
+          "package_name": "com.app.aniket.visualbasedtranslator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400871142794-apuetsc7l4676n7o07jl73v5i77jn7oe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.aniket.visualbasedtranslator",
+            "certificate_hash": "5833f4649d66ad9abf574850b50d073ca83d0395"
+          }
+        },
+        {
+          "client_id": "400871142794-bi5c57t4hoesepu1gbqte0es2mtus30u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCmo0dyoukT_KdbT_3aLay1dQG2-dkMzw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400871142794-bi5c57t4hoesepu1gbqte0es2mtus30u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
