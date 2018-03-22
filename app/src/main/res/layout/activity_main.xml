@@ -11,13 +11,15 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:layout_centerVertical="true">
 
     <Button
-        android:text="Scan"
+        android:text="Scan &amp; Translate"
         android:onClick="Scan"
         android:id="@+id/scan"
         android:padding="16dp"
+        android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -25,9 +27,11 @@
         android:text="Log Out"
         android:onClick="SignOut"
         android:padding="16dp"
+        android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/scan"/>
+        android:layout_below="@+id/logOut"/>
+
     </LinearLayout>
 
 </RelativeLayout>

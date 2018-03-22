@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/topLayout"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:keepScreenOn="true">
+    tools:context="com.app.aniket.visualbasedtranslator.ScanActivity">
 
-    <com.app.aniket.visualbasedtranslator.ui.camera.CameraSourcePreview
-        android:id="@+id/preview"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
 
-        <com.app.aniket.visualbasedtranslator.ui.camera.GraphicOverlay
-            android:id="@+id/graphicOverlay"
+
+        <Button
+            android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="64dp"
+            android:layout_margin="16dp"
+            android:onClick="LiveCapture"
+            android:text="Live Capture"
+            tools:ignore="MissingConstraints"
+            />
 
-    </com.app.aniket.visualbasedtranslator.ui.camera.CameraSourcePreview>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_margin="16dp"
+            android:onClick="ChoosefromGallary"
+            android:text="Choose from Gallary"
+            />
 
-</LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
